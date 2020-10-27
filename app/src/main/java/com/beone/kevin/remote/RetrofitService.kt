@@ -4,7 +4,6 @@ package com.beone.kevin.remote
 import com.beone.kevin.remote.model.*
 import com.beone.kevin.ui.pelatih.DayEnum
 import retrofit2.Call
-import retrofit2.Callback
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET

@@ -21,13 +21,13 @@
         tools:layout="@layout/user_pembayaran_fragment">
         <action
             android:id="@+id/action_userPembayaranFragment_to_mainUserFragment"
-            app:destination="@id/mainUserFragment" />
+            app:destination="@id/mainUserActivity" />
     </fragment>
     <fragment
-        android:id="@+id/mainUserFragment"
-        android:name="com.beone.kevin.ui.user.mainuser.MainUserFragment"
-        android:label="main_user_fragment"
-        tools:layout="@layout/main_user_fragment" >
+        android:id="@+id/mainUserActivity"
+        android:name="com.beone.kevin.ui.user.homeuser.HomeUserFragment"
+        android:label="main_user_activity"
+        tools:layout="@layout/home_user_fragment" >
         <action
             android:id="@+id/action_mainUserFragment_to_scoreViewFragment"
             app:destination="@id/scoreViewFragment"
@@ -38,18 +38,5 @@
             app:popUpTo="@id/profilTki" />
 
     </fragment>
-    <fragment
-        android:id="@+id/scoreViewFragment"
-        android:name="com.beone.kevin.ui.user.scoreview.ScoreViewFragment"
-        android:label="score_view_fragment"
-        tools:layout="@layout/score_view_fragment" />
-    <fragment
-        android:id="@+id/profilTki"
-        android:name="com.beone.kevin.ui.registertki.RegisterTkiFragment"
-        android:label="profil_tki"
-        tools:layout="@layout/base_form_register_tki_fragment">
-        <argument
-            android:name="profil"
-            app:argType="boolean" />
-    </fragment>
+
 </navigation>

@@ -7,5 +7,9 @@
     <string name="already_registered">Already registered?</string>
     <string name="login">Login</string>
     <string name="profil">Profil</string>
+    <string name="title_home">Home</string>
+    <string name="title_schedule">Jadwal</string>
+    <string name="title_score">Nilai</string>
+    <string name="title_activity_bottomnav_test">MainActivity</string>
 
 </resources>

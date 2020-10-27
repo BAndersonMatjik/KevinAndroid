@@ -28,13 +28,13 @@ class MainUserFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        btn_profile.setOnClickListener {
-
-            val action = MainUserFragmentDirections.actionMainUserFragmentToProfilTki(true)
-            this.findNavController().navigate(action)
-        }
-        btn_logout.setOnClickListener{
-            it.findNavController().navigate(R.id.action_global_loginsFragment)
-        }
+//        btn_profile.setOnClickListener {
+////
+////            val action = MainUserFragmentDirections.actionMainUserFragmentToProfilTki(true)
+////            this.findNavController().navigate(action)
+////        }
+////        btn_logout.setOnClickListener{
+////            it.findNavController().navigate(R.id.action_global_loginsFragment)
+////        }
     }
 }
